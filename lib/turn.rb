@@ -36,5 +36,5 @@ def turn(board)
   until valid_move?(board,index)
     turn(board)
   end
-    move(board,index,value = " X ")
+    move(board,index,value = "X")
 end
